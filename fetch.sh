@@ -14,8 +14,8 @@ download() {
 }
 
 download 'terraform'
-download 'terraform-provider-azurerm'
-download 'terraform-provider-null'
-download 'terraform-provider-template'
-download 'terraform-provider-random'
+# download 'terraform-provider-azurerm'
+# download 'terraform-provider-null'
+# download 'terraform-provider-template'
+# download 'terraform-provider-random'
 

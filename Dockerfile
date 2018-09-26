@@ -11,7 +11,6 @@ LABEL maintainer="Tristan Morgan <tristan@vibrato.com.au>"
 LABEL Description="Azure-CLI plus Terraform in a minimal container"
 
 COPY --from=builder terraform* /usr/local/bin/
-ENV TF_PLUGIN_CACHE_DIR /usr/local/bin
 
 RUN apk add --no-cache python py-pip bash make openssl ca-certificates jq \
  && apk add --no-cache --virtual .build-deps gcc libffi-dev musl-dev python-dev openssl-dev \
