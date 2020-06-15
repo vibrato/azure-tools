@@ -2,7 +2,7 @@
 
 [![Docker Image](https://img.shields.io/badge/docker-vibrato%2Fazure--tools-blue.svg)](https://hub.docker.com/r/vibrato/azure-tools/)
 
-A Docker container with [Azure CLI](https://github.com/Azure/azure-cli) with [Terraform](https://www.terraform.io) and Azure Providers included.
+A Docker container with [Azure CLI](https://github.com/Azure/azure-cli).
 
 ## License
 
